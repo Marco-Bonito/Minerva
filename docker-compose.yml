@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "3000:3000"
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/usr/src/app/src/config/minerva-book-firebase-adminsdk-fbsvc-a50585e96f.json
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend

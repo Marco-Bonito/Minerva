@@ -14,14 +14,44 @@
 - 📥 Direct download for public files
 - 📧 Email notifications when a file is requested by another user
 - 🔑 User authentication system
-  
+
 ---
 
 ## 🛠️ Tech Stack
 - **Frontend**: Vite, React, Tailwind CSS, TypeScript
 - **Backend**: Node.js, Express
 - **Authentication & Database**: Firebase
-- **Deployment**: Railway, AWS
+- **Deployment**: Docker
+
+---
+
+## 🐳 Running the application with Docker
+
+To run the application, you will need to have Docker and Docker Compose installed.
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/Marco-Bonito/Minerva.git
+    ```
+
+2.  **Navigate to the project directory:**
+
+    ```bash
+    cd Minerva
+    ```
+
+3.  **Create a `serviceAccountKey.json` file in `backend/src/config`:**
+
+    Create a file named `serviceAccountKey.json` in the `backend/src/config` directory and paste your Firebase service account key into it. You can get this from your Firebase project settings.
+
+4.  **Run the application:**
+
+    ```bash
+    docker-compose up
+    ```
+
+    This will build the Docker image and start the backend service. The backend will be available at `http://localhost:3000`.
 
 ---
 

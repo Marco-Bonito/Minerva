@@ -1,0 +1,4 @@
+{"level":"info","message":"Server is running on port 5173","timestamp":"2025-09-18T16:11:44.623Z"}
+{"level":"info","message":"Request received","method":"GET","timestamp":"2025-09-18T16:11:48.273Z","url":"/"}
+{"level":"info","message":"Server is running on port 5175","timestamp":"2025-09-18T16:18:01.534Z"}
+{"level":"info","message":"Request received","method":"GET","timestamp":"2025-09-18T16:18:04.022Z","url":"/"}
