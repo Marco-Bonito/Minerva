@@ -2,3 +2,7 @@
 {"level":"info","message":"Request received","method":"GET","timestamp":"2025-09-18T16:11:48.273Z","url":"/"}
 {"level":"info","message":"Server is running on port 5175","timestamp":"2025-09-18T16:18:01.534Z"}
 {"level":"info","message":"Request received","method":"GET","timestamp":"2025-09-18T16:18:04.022Z","url":"/"}
+{"level":"info","message":"Server is running on port 5174","timestamp":"2025-09-19T09:09:06.823Z"}
+{"level":"info","message":"Request received","method":"GET","timestamp":"2025-09-19T09:09:10.634Z","url":"/"}
+{"level":"info","message":"Server is running on port 5174","timestamp":"2025-09-19T09:15:38.476Z"}
+{"level":"info","message":"Server is running on port 5174","timestamp":"2025-09-19T09:45:15.081Z"}
