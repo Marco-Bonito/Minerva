@@ -1,4 +1,4 @@
 node_modules
 .env
-*minerva-book-firebase-key.json.json
+*minerva-book-firebase-key.json
 *app.log
