@@ -1,6 +1,6 @@
 import admin from 'firebase-admin';
 
-const serviceAccount = require('./minerva-book-firebase-adminsdk-fbsvc-a50585e96f.json');
+const serviceAccount = require('./minerva-book-firebase-key.json');
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)

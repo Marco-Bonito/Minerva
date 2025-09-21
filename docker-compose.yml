@@ -6,7 +6,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - GOOGLE_APPLICATION_CREDENTIALS=/usr/src/app/src/config/minerva-book-firebase-adminsdk-fbsvc-a50585e96f.json
+      - GOOGLE_APPLICATION_CREDENTIALS=/usr/src/app/src/config/minerva-book-firebase-key.json
   frontend:
     build:
       context: ./frontend

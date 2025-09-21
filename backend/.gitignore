@@ -1,3 +1,4 @@
 node_modules
 .env
-*minerva-book-firebase-adminsdk-fbsvc-a50585e96f.json
+*minerva-book-firebase-key.json.json
+.log
