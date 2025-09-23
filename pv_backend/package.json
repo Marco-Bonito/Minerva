@@ -1,13 +1,44 @@
 {
   "name": "pv_backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "dist/server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predev":"npm install",
+    "prestart": "npm install",
+    "start": "node dist/server.ts",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "description": "",
+  "dependencies": {
+    "@types/winston": "^2.4.4",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^12.2.1",
+    "firebase-admin": "^13.5.0",
+    "joi": "^17.9.2",
+    "winston": "^3.17.0",
+    "@types/multer": "^2.0.0",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.6"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "@types/nodemailer": "^7.0.1"
+  }
 }
